@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Convertidor PDF</title>
     <link rel="stylesheet" href="../styles/style.css">
+
+    <!--TIPOGRAFIA-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -30,7 +35,12 @@
             <!--AQUI VA EL CONVERTIDOR DE PDF-->
             <div class="contenedor-convertidor">
                 <div class="convertidor">
-                    <label for="archivo-usuario">Sube tu archivo aqui!!</label>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-file-upload"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2" /><path d="M12 11v6" /><path d="M9.5 13.5l2.5 -2.5l2.5 2.5" /></svg>
+                    
+                    <p>Arrastra tu archivo aquí o haz clic para seleccionarlo</p>
+
+
+                    <label class="form-label" for="archivo-usuario">Sube tu archivo aqui!!</label>
                     <input type="file" id="archivo-usuario">
                 </div>
             </div>

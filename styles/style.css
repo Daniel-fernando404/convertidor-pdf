@@ -5,3 +5,101 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Estilos generales del body */
+body {
+    font-family: "Inter", sans-serif;
+}
+/* Estilos del Header */
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+    border-bottom: 1px solid #e5e7eb;
+    padding: 1rem 2rem;
+
+
+}
+.logo{
+    padding-left: 1rem;
+    color: #2563eb;
+    font-weight: bold;
+}
+/* Estilos del Nav / Menu */
+ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+
+    padding-right: 2rem;
+
+
+}
+/* Estilos de los enlaces */
+a{
+    text-decoration: none;
+    color: #4b5563;
+    font-weight: 500;
+}
+
+
+/* Estilos del HERO */
+
+.hero{
+    text-align: center;
+    padding:8rem 7rem;
+}
+
+.titulo-inicial h2{
+    padding: 2rem 2rem;
+    font-size: 2rem;
+}
+.titulo-inicial p{
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+}
+
+.convertidor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+
+
+
+    border: 1px dashed #64748b;
+    padding: 8rem;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.convertidor p{
+    font-size: 1.2rem;
+}
+.form-text{
+    color: #64748b;
+    font-size: 0.9rem;
+}
+
+/* Estilos del Input */
+#archivo-usuario{
+    display: none;
+}
+
+/* Estilos del label */
+.form-label{
+    background-color: #2563eb;
+    color: #F8FAFC;
+    padding:0.8rem 2rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+/* Estilos del SVG */
+svg{
+    color: #2563eb;
+    width: 3rem;
+    height: 3rem;
+}
