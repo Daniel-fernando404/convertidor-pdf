@@ -103,3 +103,45 @@ svg{
     width: 3rem;
     height: 3rem;
 }
+
+
+/* Estilos de los Formatos */
+
+.formatos{
+    padding: 4rem 2rem;
+}
+.titulo-formato{
+    padding: 2rem 2rem;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+.formatos-compatibles{
+    display:flex;
+    justify-content: center;
+    gap:7rem;
+}
+article{
+    background-color: #F8FAFC;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    width:14rem;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+svg{
+    color: #2563eb;
+    width: 3rem;
+    height: 3rem;
+}
+.text-format{
+    color: #64748b;
+    font-size: 0.9rem;
+}
