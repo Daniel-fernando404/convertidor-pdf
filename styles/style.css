@@ -145,3 +145,29 @@ svg{
     color: #64748b;
     font-size: 0.9rem;
 }
+
+
+/* Estilos de la seccion de instrucciones */
+
+.instrucciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 4rem 2rem;
+}
+
+.contenedor-instrucciones{
+    display:flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.2rem;
+    color: #334155;
+
+}
+
+.imagen-instrucciones{
+    max-width: 100%;
+    width: 400px;
+    border-radius: 0.5rem;
+}
